@@ -8,7 +8,7 @@ process sra_fetch{
     storeDir "${params.outdir}"
    
     container "https://depot.galaxyproject.org/singularity/sra-tools:2.11.0--pl5262h314213e_0"
-   
+   // user repository: /home/cq/NGS/cq-examples/examples/SRA_data
     input: 
     val nr_acc
 
